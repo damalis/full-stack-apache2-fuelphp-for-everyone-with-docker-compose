@@ -6,5 +6,5 @@
     RewriteCond %{REQUEST_FILENAME} !-d [OR]
     RewriteCond $1 ^$
 
-    RewriteRule ^(.*)$ /webapp [QSA,L]
+    RewriteRule ^(.*)$ /webapp/public [QSA,L]
 </IfModule>
