@@ -235,7 +235,7 @@ add or remove code in the ```./webserver/extra/httpd-ssl.conf``` file for custom
 #### Database
 
 ```
-// a MySQL driver configuration
+// a MariaDB/MySQL driver configuration
 'development' => array(
     'type'           => 'mysqli',
     'connection'     => array(
