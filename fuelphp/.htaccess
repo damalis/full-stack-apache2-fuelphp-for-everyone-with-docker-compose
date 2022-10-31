@@ -7,4 +7,6 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d [OR]
     RewriteCond $1 ^$
+	
+	#SetEnv FUEL_ENV production
 </IfModule>
